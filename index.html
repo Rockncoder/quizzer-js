@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="quiz" >
+<head>
+  <meta charset="UTF-8">
+  <title>Quizzer-js</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/#/quiz">Quizzer-js</a>
+      <button class="navbar-toggle" type="button" toggle="collapse" data-target="#navbar-main">
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      </button>
+
+    </div>
+    <div id="navbar-main" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/#/about">About</a></li>
+        <li><a href="/#/login">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div ui-view>
+    <footer>
+      <div class="row">
+        <div class="col-xs-12">
+          <small>&copy; Troy Miles 2016</small>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<script src="./libs/jquery-1.11.3.min.js"></script>
+<script src="./libs/angular.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./libs/angular-ui-router.min.js"></script>
+<script src="./libs/moment.min.js"></script>
+<script src="./libs/angular-moment.min.js"></script>
+<script src="./system/app.js"></script>
+<script src="./system/routes.js"></script>
+<script src="./quiz/quiz-service.js"></script>
+<script src="./quiz/quiz-controller.js"></script>
+<script src="./play/play-controller.js"></script>
+<script src="./about/about-controller.js"></script>
+<script src="./login/login-controller.js"></script>
+
+</body>
+</html>

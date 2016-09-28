@@ -1,0 +1,22 @@
+{
+  "name": "quizzer-js",
+  "version": "1.0.0",
+  "description": "Quizzer app in AngularJS",
+  "main": "main.ts",
+  "author": "Troy Miles",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rockncoder/quizzer-ng2.git"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run lite\" ",
+    "lite": "lite-server"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.1.0"
+  }
+}
